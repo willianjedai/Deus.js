@@ -4,6 +4,14 @@
 	<title>My project js</title>
 </head>
 <body>
-	
+
+	<div data-fn="enterForm" data-param='{ "submit": ".btn-submit" }'>
+		<input type="text" name="yourName" placeholder="Your name" />
+		<input type="text" name="yourPass" placeholder="Your password" />
+		
+		<a href="#goExtra" class="btn-submit" data-fn="alert" data-param='{ "msg": "Send OK!" }'>Send</a>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/min.debug.js"></script>
 </body>
 </html>

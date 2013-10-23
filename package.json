@@ -1,0 +1,26 @@
+{
+  "name": "behavior.js",
+  "description": "behavior.js\r ===========",
+  "version": "0.0.0",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willianjedai/behavior.js.git"
+  },
+  "author": "Willian R. Sabião",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/willianjedai/behavior.js/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
